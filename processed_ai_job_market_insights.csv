@@ -1,0 +1,501 @@
+Job_Title,Industry,Company_Size,Location,AI_Adoption_Level,Automation_Risk,Required_Skills,Salary_USD,Remote_Friendly,Job_Growth_Projection
+Cybersecurity Analyst,Entertainment,Small,Dubai,2,3,UX/UI Design,111392.16524315962,1,1
+Marketing Specialist,Technology,Large,Singapore,2,3,Marketing,93792.56246610906,0,-1
+AI Researcher,Technology,Large,Singapore,2,3,UX/UI Design,107170.26306894996,1,1
+Sales Manager,Retail,Small,Berlin,1,3,Project Management,93027.95375786416,0,1
+Cybersecurity Analyst,Entertainment,Small,Tokyo,1,1,JavaScript,87752.92217059238,1,-1
+UX Designer,Education,Large,San Francisco,2,2,Cybersecurity,102825.0078665678,0,1
+HR Manager,Finance,Medium,Singapore,1,3,Sales,102065.72067347592,1,1
+Cybersecurity Analyst,Technology,Small,Dubai,2,1,Machine Learning,86607.3176180969,1,-1
+AI Researcher,Retail,Large,London,3,1,JavaScript,75015.86084571481,0,0
+Sales Manager,Entertainment,Medium,Singapore,3,1,Cybersecurity,96834.57829480869,1,-1
+Marketing Specialist,Finance,Small,London,3,3,Python,91566.97337925188,1,1
+AI Researcher,Entertainment,Medium,Singapore,2,3,UX/UI Design,78902.56574458485,0,1
+AI Researcher,Transportation,Large,San Francisco,3,2,Python,73151.99034926406,1,1
+HR Manager,Retail,Small,Paris,1,3,Cybersecurity,98209.51687788912,1,-1
+Product Manager,Finance,Medium,Singapore,3,3,JavaScript,101001.90114055388,1,1
+Sales Manager,Telecommunications,Small,Dubai,3,1,UX/UI Design,82799.35770690278,0,1
+Software Engineer,Manufacturing,Medium,Singapore,3,2,Machine Learning,78401.25928174148,0,-1
+AI Researcher,Manufacturing,Large,Tokyo,1,3,Project Management,73394.89621925619,0,0
+Product Manager,Finance,Large,San Francisco,2,3,UX/UI Design,97645.09878289838,1,0
+Software Engineer,Entertainment,Small,Dubai,1,1,UX/UI Design,73920.45852718527,1,1
+Sales Manager,Retail,Medium,Sydney,2,1,JavaScript,134822.69138041462,1,-1
+Data Scientist,Manufacturing,Small,Dubai,2,3,JavaScript,81794.37128058006,1,1
+UX Designer,Retail,Small,Tokyo,3,2,Cybersecurity,41495.71444254798,0,-1
+Product Manager,Manufacturing,Medium,Paris,2,2,Data Analysis,89396.5666674173,1,-1
+Operations Manager,Transportation,Medium,San Francisco,1,1,UX/UI Design,88539.33040362394,1,0
+Data Scientist,Entertainment,Medium,Sydney,1,1,Sales,112234.37135048377,1,0
+UX Designer,Transportation,Large,Tokyo,2,3,UX/UI Design,95762.52473455408,0,-1
+HR Manager,Manufacturing,Small,Tokyo,3,1,Cybersecurity,73323.29633120395,1,1
+Cybersecurity Analyst,Telecommunications,Small,New York,3,3,Marketing,84272.16253006447,1,0
+Marketing Specialist,Telecommunications,Large,San Francisco,1,2,Python,96548.39543301976,1,1
+Operations Manager,Transportation,Medium,Dubai,3,2,Project Management,46705.714993791786,1,0
+HR Manager,Telecommunications,Large,London,2,3,Data Analysis,116772.434687809,1,0
+Sales Manager,Manufacturing,Large,Paris,2,1,Machine Learning,73376.6022839067,0,1
+HR Manager,Finance,Large,London,1,2,Machine Learning,118340.87641895234,1,0
+Cybersecurity Analyst,Transportation,Small,Dubai,2,1,Machine Learning,97849.30282253175,1,0
+Sales Manager,Healthcare,Large,Dubai,1,2,JavaScript,102591.88272787948,1,1
+Operations Manager,Entertainment,Small,San Francisco,2,3,Machine Learning,112988.46872002544,1,0
+Cybersecurity Analyst,Telecommunications,Small,Dubai,1,3,Project Management,101462.64105384996,1,0
+Software Engineer,Telecommunications,Small,New York,3,3,Python,103457.72432634902,1,0
+Marketing Specialist,Technology,Medium,Sydney,2,2,Machine Learning,86711.67119077238,1,1
+Operations Manager,Education,Small,Dubai,2,1,UX/UI Design,97443.3736294419,1,-1
+Software Engineer,Transportation,Small,London,1,1,UX/UI Design,78250.04370056515,1,1
+UX Designer,Energy,Medium,Dubai,1,1,JavaScript,83131.77800824065,1,-1
+Operations Manager,Telecommunications,Small,New York,2,2,Project Management,129293.90095937817,0,0
+UX Designer,Entertainment,Large,Singapore,1,2,Python,73836.12829899156,0,-1
+Sales Manager,Healthcare,Large,Singapore,2,2,Data Analysis,93086.3425327256,0,1
+Software Engineer,Telecommunications,Small,Tokyo,3,2,Cybersecurity,92269.38073430952,0,1
+Marketing Specialist,Healthcare,Medium,Paris,1,2,Python,83784.91056438402,1,0
+Cybersecurity Analyst,Manufacturing,Large,Berlin,2,1,Cybersecurity,100288.01873140877,0,-1
+AI Researcher,Manufacturing,Medium,Sydney,3,2,Marketing,101794.44185482766,0,0
+HR Manager,Education,Medium,Toronto,3,2,Cybersecurity,71483.61633704841,1,0
+Data Scientist,Finance,Large,Tokyo,2,1,Sales,92027.13423093104,0,1
+Marketing Specialist,Energy,Medium,Paris,1,2,UX/UI Design,68352.65322455287,0,-1
+Software Engineer,Technology,Large,Singapore,2,1,Project Management,105770.97236634602,1,-1
+AI Researcher,Education,Medium,London,3,1,Communication,93529.74620725252,1,-1
+Marketing Specialist,Retail,Large,Toronto,2,3,JavaScript,91646.59773434176,1,-1
+Software Engineer,Technology,Small,Paris,1,3,Sales,103180.62697744806,0,0
+Product Manager,Transportation,Large,Paris,3,3,Cybersecurity,84489.79419063198,0,0
+Product Manager,Entertainment,Large,Tokyo,2,3,Machine Learning,108280.43918436408,1,1
+UX Designer,Retail,Large,Toronto,1,2,Project Management,71031.10254487729,1,0
+Marketing Specialist,Retail,Large,San Francisco,3,3,Sales,118237.53037789057,0,0
+Product Manager,Education,Medium,Berlin,1,1,JavaScript,78981.77634890293,1,1
+Software Engineer,Finance,Small,San Francisco,3,2,UX/UI Design,56076.41864608825,0,1
+UX Designer,Education,Large,Toronto,2,3,Project Management,83429.30183074536,1,1
+Software Engineer,Transportation,Medium,San Francisco,1,1,JavaScript,81160.63605491581,1,0
+UX Designer,Telecommunications,Small,New York,3,2,Marketing,83278.52027699928,0,0
+Marketing Specialist,Telecommunications,Small,Singapore,1,2,Marketing,94632.96030967963,1,1
+AI Researcher,Finance,Small,New York,1,3,JavaScript,111956.84721776543,1,1
+Cybersecurity Analyst,Transportation,Small,Dubai,2,2,Sales,86165.88172205727,1,1
+Operations Manager,Finance,Large,San Francisco,1,1,Project Management,76167.64860362199,0,0
+AI Researcher,Healthcare,Large,Dubai,3,2,Sales,67469.06375432406,1,0
+Sales Manager,Telecommunications,Medium,London,3,1,Data Analysis,80636.34417381912,1,-1
+Software Engineer,Retail,Medium,Sydney,3,2,Cybersecurity,52243.50321499295,1,0
+Sales Manager,Energy,Medium,London,3,3,Data Analysis,75497.33812967277,1,0
+AI Researcher,Entertainment,Small,Toronto,2,1,Marketing,114881.07791724372,1,0
+UX Designer,Transportation,Small,Paris,1,2,UX/UI Design,73532.81590843154,1,1
+Operations Manager,Technology,Large,Singapore,2,2,Python,102574.31721600612,0,0
+Operations Manager,Finance,Small,San Francisco,1,2,Cybersecurity,65470.358203830205,0,1
+Data Scientist,Entertainment,Small,Tokyo,1,1,Marketing,125421.91798621108,1,-1
+Operations Manager,Technology,Small,Sydney,1,1,Sales,126752.1346612942,0,-1
+Cybersecurity Analyst,Entertainment,Medium,Berlin,2,1,Sales,101820.43113119752,0,1
+Operations Manager,Energy,Medium,Berlin,1,3,Sales,129825.05203287044,1,1
+AI Researcher,Technology,Large,Berlin,2,3,UX/UI Design,97115.85949855324,0,1
+Data Scientist,Education,Small,San Francisco,3,1,Data Analysis,105370.34228299111,0,0
+AI Researcher,Manufacturing,Small,Berlin,3,2,Python,115238.6775346307,0,-1
+AI Researcher,Education,Large,New York,1,3,Sales,93594.369061969,0,1
+HR Manager,Telecommunications,Small,Sydney,2,1,Communication,58952.450768298775,0,0
+Data Scientist,Manufacturing,Small,New York,3,2,Cybersecurity,105779.26710468795,0,-1
+AI Researcher,Education,Medium,Paris,2,3,Project Management,80562.80811133073,0,0
+HR Manager,Manufacturing,Large,Sydney,2,2,Communication,82049.4035808908,0,-1
+HR Manager,Manufacturing,Large,New York,1,2,Python,95957.8983295738,1,0
+Data Scientist,Retail,Large,Sydney,3,2,UX/UI Design,101325.6175943474,1,-1
+Sales Manager,Finance,Large,Paris,1,2,Python,93002.69268012435,0,-1
+UX Designer,Finance,Medium,Dubai,1,3,Project Management,102714.59072314618,0,0
+Cybersecurity Analyst,Retail,Medium,San Francisco,3,3,Cybersecurity,75862.85731879607,1,1
+UX Designer,Entertainment,Small,San Francisco,3,3,Project Management,89145.92410553433,0,-1
+Operations Manager,Healthcare,Small,Berlin,2,1,JavaScript,106981.70900901742,0,1
+Cybersecurity Analyst,Entertainment,Small,London,3,3,Cybersecurity,125455.82352873433,1,0
+Operations Manager,Technology,Small,Berlin,2,2,Python,132528.71177946418,1,1
+AI Researcher,Technology,Medium,Toronto,2,3,Sales,98659.53365455465,1,1
+Software Engineer,Manufacturing,Large,New York,2,2,Python,106800.19653491216,0,1
+Data Scientist,Education,Medium,Sydney,3,1,Python,129631.5832963038,0,1
+Cybersecurity Analyst,Education,Small,London,1,2,Cybersecurity,76583.27926533011,1,1
+Cybersecurity Analyst,Finance,Medium,Paris,2,2,JavaScript,102593.99705425168,1,-1
+AI Researcher,Transportation,Large,Toronto,1,2,Python,105366.85898972292,0,-1
+Sales Manager,Entertainment,Large,Paris,1,1,Communication,118957.22872153488,1,-1
+HR Manager,Telecommunications,Medium,San Francisco,3,3,Marketing,67257.17238927555,0,0
+AI Researcher,Energy,Medium,San Francisco,1,3,Machine Learning,71211.88432398967,0,1
+Product Manager,Education,Medium,Berlin,1,1,Machine Learning,90427.64422209412,1,-1
+HR Manager,Energy,Small,New York,3,2,Python,97554.55324643273,1,0
+Data Scientist,Manufacturing,Medium,London,2,3,Communication,112457.27907467616,0,-1
+HR Manager,Energy,Medium,Singapore,1,1,Sales,100350.87551624542,1,-1
+Sales Manager,Telecommunications,Medium,Toronto,3,3,UX/UI Design,86971.73539779433,1,1
+HR Manager,Retail,Large,Toronto,1,1,UX/UI Design,98329.2288951228,1,0
+Data Scientist,Telecommunications,Large,Berlin,1,2,Cybersecurity,96020.88952548904,1,1
+Sales Manager,Energy,Small,San Francisco,2,3,Machine Learning,124900.32859975575,0,1
+UX Designer,Telecommunications,Small,Berlin,1,1,Python,93313.17887137063,0,-1
+Cybersecurity Analyst,Healthcare,Large,Sydney,3,3,UX/UI Design,82338.33172894873,0,1
+Cybersecurity Analyst,Manufacturing,Large,London,1,3,Python,98992.1806014366,0,0
+Operations Manager,Entertainment,Large,New York,2,3,Cybersecurity,93969.70638677065,1,1
+UX Designer,Retail,Medium,Dubai,2,3,Machine Learning,58580.13288650656,1,1
+UX Designer,Education,Medium,Tokyo,3,1,Project Management,89686.95876755661,0,1
+HR Manager,Technology,Large,Tokyo,2,2,Marketing,87985.23509187989,0,-1
+Cybersecurity Analyst,Entertainment,Medium,Berlin,1,1,Marketing,79122.56268441367,1,0
+Data Scientist,Technology,Medium,Sydney,2,1,UX/UI Design,110711.66575245943,0,-1
+Marketing Specialist,Manufacturing,Small,London,3,1,Marketing,74286.40806776009,0,-1
+Marketing Specialist,Retail,Large,Singapore,2,2,Project Management,99112.37239049075,1,-1
+Sales Manager,Finance,Large,Tokyo,2,3,Python,87042.86000312539,0,-1
+Cybersecurity Analyst,Education,Medium,London,2,3,Cybersecurity,92153.90011293563,1,-1
+Cybersecurity Analyst,Healthcare,Large,New York,3,3,Project Management,98235.72582091736,1,0
+Marketing Specialist,Finance,Small,Paris,2,2,Cybersecurity,63848.51232217997,0,1
+Cybersecurity Analyst,Manufacturing,Small,Sydney,2,3,Cybersecurity,93833.21783469566,1,-1
+HR Manager,Entertainment,Small,San Francisco,1,2,Machine Learning,135778.94979426413,0,-1
+Product Manager,Healthcare,Large,London,3,3,Python,58864.73308242552,1,0
+Software Engineer,Telecommunications,Large,New York,2,3,Communication,88847.84072568991,0,0
+UX Designer,Energy,Large,Singapore,3,1,Marketing,112464.7864964764,0,1
+Operations Manager,Healthcare,Large,Dubai,2,2,Communication,96032.38495907192,0,0
+Sales Manager,Manufacturing,Large,San Francisco,2,1,Machine Learning,103759.33904232067,1,1
+Product Manager,Transportation,Small,Dubai,2,1,Cybersecurity,42486.67977814768,1,-1
+Marketing Specialist,Energy,Medium,Singapore,1,1,UX/UI Design,101964.987492599,0,-1
+UX Designer,Technology,Small,New York,1,2,Marketing,74766.23587532803,1,1
+Cybersecurity Analyst,Education,Large,Tokyo,1,2,Marketing,96197.54569166292,0,0
+Operations Manager,Technology,Small,Dubai,3,3,Python,89411.30538181018,0,1
+Cybersecurity Analyst,Healthcare,Large,San Francisco,3,1,JavaScript,135566.66058323265,1,0
+Data Scientist,Technology,Large,Berlin,1,3,Data Analysis,100933.9064753175,0,-1
+Data Scientist,Manufacturing,Small,Toronto,3,1,Data Analysis,87747.52341474428,1,0
+Operations Manager,Telecommunications,Large,London,2,2,Data Analysis,59806.144814928906,0,1
+Operations Manager,Entertainment,Medium,Tokyo,2,2,JavaScript,92422.93803699792,1,1
+Marketing Specialist,Education,Large,Dubai,2,2,Python,106464.57756693644,0,-1
+Operations Manager,Technology,Medium,Paris,1,1,JavaScript,88388.96216361554,0,0
+HR Manager,Technology,Medium,London,3,2,Data Analysis,79886.87280125119,1,0
+Cybersecurity Analyst,Healthcare,Large,Berlin,1,1,Machine Learning,78548.26672307363,0,0
+Product Manager,Entertainment,Small,Singapore,3,3,Project Management,100702.8287091064,0,-1
+AI Researcher,Finance,Medium,Toronto,2,1,Cybersecurity,105187.75878618314,1,0
+Operations Manager,Technology,Small,New York,1,3,JavaScript,117224.20230642238,0,1
+Sales Manager,Manufacturing,Medium,Berlin,3,1,Python,70100.00213579283,1,0
+Data Scientist,Transportation,Large,Berlin,3,3,Python,100519.55116835234,0,-1
+HR Manager,Education,Large,Singapore,2,2,Communication,87565.92091164265,1,0
+UX Designer,Technology,Medium,Sydney,1,3,Project Management,88155.31590733438,0,0
+AI Researcher,Manufacturing,Large,Singapore,1,2,UX/UI Design,98036.51708068005,0,1
+Product Manager,Manufacturing,Medium,Sydney,1,2,Marketing,98153.12507249897,0,0
+AI Researcher,Education,Large,Sydney,2,3,Data Analysis,100575.36211583146,1,1
+Operations Manager,Finance,Small,Tokyo,1,1,UX/UI Design,68850.5761560838,1,1
+Marketing Specialist,Manufacturing,Large,Tokyo,2,1,Communication,75003.77185667082,1,-1
+Data Scientist,Transportation,Small,San Francisco,2,1,Data Analysis,119717.36551035367,1,1
+Data Scientist,Manufacturing,Large,Dubai,2,1,Project Management,85588.5506503832,0,1
+UX Designer,Manufacturing,Small,Dubai,3,1,Communication,96120.28796035792,0,-1
+Marketing Specialist,Manufacturing,Large,New York,1,2,Data Analysis,111093.32624086372,1,1
+Cybersecurity Analyst,Telecommunications,Small,Dubai,1,1,Project Management,99268.86144721638,1,-1
+Software Engineer,Telecommunications,Medium,Tokyo,2,2,Sales,100930.45261944078,1,0
+HR Manager,Finance,Medium,San Francisco,2,2,UX/UI Design,107891.55358487512,0,-1
+Data Scientist,Technology,Small,San Francisco,1,2,UX/UI Design,47666.72478206,1,1
+Sales Manager,Manufacturing,Large,Sydney,2,3,Marketing,80200.99689678931,1,-1
+Data Scientist,Entertainment,Small,Singapore,1,3,Project Management,99372.11592999184,0,1
+AI Researcher,Technology,Large,New York,3,2,JavaScript,117752.88614115314,0,0
+Data Scientist,Finance,Medium,Sydney,2,3,Sales,91321.91119311546,1,-1
+Data Scientist,Retail,Large,Singapore,1,1,Machine Learning,73105.67076487809,0,0
+Software Engineer,Technology,Medium,Dubai,2,1,Data Analysis,73638.27900778996,1,1
+Software Engineer,Technology,Large,Sydney,1,2,Sales,107677.22406906149,0,1
+Product Manager,Energy,Large,London,1,1,Project Management,85644.52835216226,1,0
+Cybersecurity Analyst,Healthcare,Large,Dubai,2,2,Cybersecurity,89855.99908419327,1,-1
+Sales Manager,Energy,Small,Singapore,3,2,Data Analysis,102300.60387544638,1,-1
+Data Scientist,Transportation,Small,New York,1,1,Python,31969.52634612842,1,1
+Data Scientist,Telecommunications,Medium,Singapore,1,3,UX/UI Design,130007.35023016162,0,0
+HR Manager,Telecommunications,Medium,Sydney,1,1,Project Management,75378.52329897878,0,0
+Software Engineer,Healthcare,Small,Sydney,3,1,Python,94838.72738947145,0,-1
+Sales Manager,Education,Medium,Berlin,3,2,Marketing,55906.05973007458,0,-1
+UX Designer,Education,Small,New York,2,2,Communication,81549.17779189924,1,-1
+Product Manager,Finance,Large,Paris,3,2,Machine Learning,114893.76092730192,1,0
+Cybersecurity Analyst,Healthcare,Medium,Dubai,2,2,Machine Learning,51676.65640668242,0,-1
+Marketing Specialist,Technology,Medium,San Francisco,2,3,Python,112524.00174378282,0,-1
+Cybersecurity Analyst,Education,Small,New York,3,3,UX/UI Design,84526.07807535231,0,1
+AI Researcher,Manufacturing,Medium,San Francisco,2,3,Marketing,99743.28880440384,0,-1
+Data Scientist,Entertainment,Medium,New York,3,2,Cybersecurity,103150.4882697022,0,-1
+Product Manager,Technology,Large,New York,2,2,UX/UI Design,98828.42998981853,1,0
+AI Researcher,Transportation,Medium,Singapore,3,2,Sales,72700.98696738348,1,0
+Sales Manager,Manufacturing,Large,New York,3,3,Machine Learning,82709.01706929953,1,1
+Marketing Specialist,Manufacturing,Small,Berlin,2,2,Sales,60768.876454983685,0,-1
+Software Engineer,Healthcare,Medium,Paris,1,1,Data Analysis,99835.9266317616,0,1
+Product Manager,Finance,Large,Sydney,2,1,JavaScript,124041.10308031851,0,0
+Product Manager,Transportation,Small,Toronto,3,2,Project Management,53511.18226647075,0,1
+Data Scientist,Education,Medium,San Francisco,1,1,Marketing,74767.0818772393,1,0
+Operations Manager,Healthcare,Small,Sydney,2,1,UX/UI Design,86364.49448234134,1,1
+Product Manager,Education,Medium,Toronto,2,3,Machine Learning,93466.82847427108,0,1
+HR Manager,Healthcare,Small,Paris,2,2,Sales,107583.52602868852,1,-1
+Marketing Specialist,Healthcare,Small,Paris,1,2,Communication,86956.00039284666,1,1
+Marketing Specialist,Healthcare,Large,San Francisco,3,3,Data Analysis,83680.825471087,0,-1
+HR Manager,Finance,Small,San Francisco,2,1,Project Management,112062.6141213948,0,-1
+UX Designer,Healthcare,Medium,Paris,2,1,Project Management,103239.91134126612,0,-1
+HR Manager,Retail,Medium,Toronto,2,2,UX/UI Design,100779.55951402197,0,-1
+HR Manager,Entertainment,Large,New York,2,1,Marketing,92250.31423176228,0,1
+Marketing Specialist,Education,Medium,Dubai,2,3,Cybersecurity,109663.04421839718,0,0
+Cybersecurity Analyst,Technology,Medium,London,3,3,Communication,76873.81217539468,1,0
+Marketing Specialist,Energy,Medium,Sydney,3,2,UX/UI Design,74146.11435627844,1,0
+Operations Manager,Transportation,Small,Singapore,2,3,Sales,104922.01973738648,0,1
+Data Scientist,Telecommunications,Small,Sydney,1,3,JavaScript,57499.28061506184,1,-1
+AI Researcher,Finance,Medium,Singapore,3,2,Python,91843.59019272974,0,0
+Cybersecurity Analyst,Technology,Large,Toronto,1,3,Cybersecurity,83668.83295474976,0,1
+Software Engineer,Manufacturing,Small,Singapore,3,3,Marketing,61884.90538694088,0,-1
+AI Researcher,Retail,Large,San Francisco,2,3,Data Analysis,71374.64840567471,0,0
+Data Scientist,Telecommunications,Medium,Dubai,3,1,Cybersecurity,87820.47815409301,1,-1
+Operations Manager,Energy,Medium,Dubai,2,2,Machine Learning,110679.26512998046,0,0
+Operations Manager,Technology,Small,San Francisco,3,2,Marketing,76940.84017484378,1,0
+Software Engineer,Telecommunications,Medium,Berlin,2,2,JavaScript,114267.62799809988,0,0
+Cybersecurity Analyst,Technology,Small,Toronto,2,1,Machine Learning,91263.58455113032,0,-1
+UX Designer,Retail,Medium,Berlin,2,1,Cybersecurity,116207.69404339942,0,1
+HR Manager,Energy,Medium,Berlin,2,2,Python,77910.16782439903,1,-1
+Cybersecurity Analyst,Manufacturing,Small,Sydney,1,1,Python,89023.80823789263,0,0
+UX Designer,Healthcare,Small,Paris,2,2,JavaScript,97369.6720667399,0,-1
+Operations Manager,Education,Small,Sydney,1,1,Project Management,86409.79074516977,0,1
+Marketing Specialist,Manufacturing,Medium,Paris,1,3,Communication,109060.48294290472,1,-1
+Data Scientist,Healthcare,Medium,London,2,3,Data Analysis,45848.72549419468,1,1
+Software Engineer,Finance,Large,Singapore,1,2,Project Management,138448.1107757988,1,1
+Data Scientist,Entertainment,Small,Paris,3,1,Python,107155.49213990325,0,-1
+Sales Manager,Transportation,Medium,San Francisco,2,1,Python,86529.36341929967,1,0
+Sales Manager,Transportation,Medium,Sydney,1,3,Sales,78953.56652845311,0,1
+Cybersecurity Analyst,Education,Small,Toronto,2,3,Machine Learning,72671.58777102892,1,-1
+Operations Manager,Energy,Large,Singapore,2,1,Cybersecurity,102912.30948339474,1,1
+Operations Manager,Retail,Small,London,2,1,Data Analysis,109899.63337584709,0,0
+HR Manager,Energy,Large,Paris,1,1,JavaScript,86749.477437402,1,-1
+HR Manager,Retail,Medium,London,3,1,Cybersecurity,112139.80825957004,0,-1
+HR Manager,Energy,Large,Toronto,3,1,Sales,71854.79906477756,0,-1
+Marketing Specialist,Entertainment,Medium,Berlin,1,1,Python,68323.78300026328,1,0
+AI Researcher,Finance,Small,Dubai,2,2,JavaScript,126266.82410491098,0,1
+Product Manager,Finance,Small,Toronto,1,1,Python,101822.17227077084,0,-1
+AI Researcher,Healthcare,Small,Tokyo,1,3,Data Analysis,117936.96403626657,1,1
+Data Scientist,Telecommunications,Large,Toronto,1,2,Machine Learning,72921.20583224614,1,1
+AI Researcher,Finance,Medium,London,2,1,Cybersecurity,71529.49216462541,0,0
+Marketing Specialist,Finance,Small,San Francisco,1,3,Cybersecurity,82827.81361084916,1,-1
+Data Scientist,Manufacturing,Small,Sydney,2,2,Project Management,73518.82316921977,0,1
+AI Researcher,Manufacturing,Medium,San Francisco,1,3,JavaScript,104107.30420456902,0,-1
+Marketing Specialist,Healthcare,Small,London,3,1,Communication,74977.47886147109,1,-1
+Product Manager,Telecommunications,Medium,Sydney,1,1,Sales,66566.60283865419,1,0
+AI Researcher,Education,Medium,Tokyo,1,1,Communication,92840.30824510464,1,-1
+Marketing Specialist,Manufacturing,Medium,Dubai,3,1,Project Management,64200.27648349573,1,-1
+HR Manager,Education,Medium,Singapore,2,2,Data Analysis,54010.72137049221,0,1
+Operations Manager,Technology,Medium,London,2,2,Sales,92665.14467722556,0,0
+HR Manager,Manufacturing,Large,Paris,1,3,Machine Learning,55015.5991397958,1,-1
+Operations Manager,Entertainment,Small,London,3,1,Communication,105505.58792590846,1,1
+Software Engineer,Telecommunications,Large,London,2,3,Machine Learning,62093.32547494408,0,0
+Software Engineer,Healthcare,Small,Sydney,1,2,Communication,45186.52427160505,0,0
+Software Engineer,Technology,Large,New York,3,1,Machine Learning,84124.06699718411,0,1
+Product Manager,Telecommunications,Medium,Toronto,2,1,Communication,92891.89006592968,0,1
+HR Manager,Entertainment,Small,New York,2,2,Machine Learning,99829.50127363882,1,1
+Operations Manager,Telecommunications,Small,Tokyo,3,2,Project Management,93440.31398031706,0,1
+Marketing Specialist,Entertainment,Large,Paris,3,2,Marketing,68813.74757764515,0,1
+Data Scientist,Entertainment,Large,Dubai,3,2,Sales,104261.22361853208,1,-1
+Marketing Specialist,Education,Small,Berlin,3,2,JavaScript,109202.77012959492,0,-1
+Data Scientist,Energy,Large,Tokyo,1,1,Data Analysis,65884.75743088922,0,0
+Sales Manager,Technology,Large,Berlin,3,2,UX/UI Design,86379.87722680772,1,-1
+Marketing Specialist,Telecommunications,Large,Berlin,2,1,Python,84511.1994578196,1,-1
+AI Researcher,Retail,Medium,Dubai,2,1,JavaScript,94407.63165576068,1,-1
+AI Researcher,Technology,Medium,San Francisco,1,2,Python,85901.52416451782,0,1
+Cybersecurity Analyst,Energy,Large,New York,2,2,Sales,88642.44455854046,0,0
+HR Manager,Technology,Large,London,2,1,JavaScript,102836.31060483382,1,0
+Data Scientist,Finance,Medium,Singapore,3,2,Machine Learning,67722.93800797733,1,0
+Data Scientist,Retail,Medium,Berlin,2,2,Machine Learning,104747.46270521649,0,0
+HR Manager,Energy,Small,Paris,1,2,UX/UI Design,112822.65463062502,1,-1
+Product Manager,Education,Small,Tokyo,3,3,Python,122682.69986977737,1,-1
+Cybersecurity Analyst,Telecommunications,Medium,San Francisco,3,1,Data Analysis,47132.65351725282,1,1
+Product Manager,Transportation,Large,Berlin,1,3,Sales,86341.96685769563,0,0
+Product Manager,Energy,Large,San Francisco,3,2,Machine Learning,50697.98851292822,0,-1
+Product Manager,Healthcare,Large,San Francisco,3,3,Marketing,41298.72620454353,0,-1
+HR Manager,Telecommunications,Large,Berlin,1,2,Project Management,92881.86095214955,0,1
+Product Manager,Energy,Small,Sydney,3,3,Project Management,82016.96414299277,0,1
+AI Researcher,Finance,Medium,Toronto,1,2,Communication,95997.01903541492,0,1
+Software Engineer,Transportation,Large,Paris,1,3,Data Analysis,99722.55380174633,1,-1
+Sales Manager,Finance,Small,London,2,3,Project Management,114957.91916215842,0,-1
+Data Scientist,Transportation,Large,London,2,3,Communication,91078.4085061156,0,1
+Data Scientist,Healthcare,Medium,Paris,3,1,Python,148467.11234638176,1,0
+Sales Manager,Telecommunications,Small,Sydney,3,3,Machine Learning,96128.19709970424,0,1
+HR Manager,Education,Medium,London,1,1,Machine Learning,126849.58089134425,0,1
+Marketing Specialist,Finance,Medium,San Francisco,3,2,Marketing,43343.24398951503,1,1
+HR Manager,Finance,Small,Dubai,1,3,JavaScript,116994.7905910125,1,1
+Data Scientist,Entertainment,Small,Tokyo,1,2,Project Management,86384.7902040888,1,-1
+Data Scientist,Transportation,Small,New York,3,2,Python,51033.05481145457,0,0
+Sales Manager,Manufacturing,Small,London,1,3,Cybersecurity,98410.9021845624,1,1
+Product Manager,Telecommunications,Small,Paris,2,1,Project Management,83940.88924031366,0,0
+HR Manager,Transportation,Small,Dubai,3,3,Data Analysis,101601.06496896283,0,0
+Operations Manager,Entertainment,Small,Berlin,2,2,JavaScript,110221.52915102156,0,0
+Sales Manager,Technology,Large,Toronto,3,2,Project Management,60216.99766476808,0,1
+AI Researcher,Transportation,Medium,Paris,1,3,Python,110298.37964910315,1,-1
+Data Scientist,Education,Small,San Francisco,3,1,Project Management,90129.58968441431,1,1
+Sales Manager,Telecommunications,Large,Toronto,2,1,Data Analysis,117056.82349386544,0,0
+HR Manager,Entertainment,Large,Tokyo,1,2,Cybersecurity,85897.03542004264,1,0
+Data Scientist,Technology,Large,Tokyo,3,2,Sales,80591.82214937158,0,-1
+Marketing Specialist,Retail,Medium,Sydney,3,1,UX/UI Design,90541.08081377904,0,1
+Sales Manager,Entertainment,Small,Singapore,3,3,Cybersecurity,92037.21412759706,0,0
+Cybersecurity Analyst,Retail,Large,Sydney,2,2,Communication,76744.30397016529,1,-1
+Data Scientist,Telecommunications,Medium,Dubai,2,1,Project Management,80073.90538089433,0,0
+HR Manager,Finance,Medium,Toronto,3,2,Machine Learning,65462.48930972422,0,-1
+Software Engineer,Entertainment,Medium,Singapore,1,3,Marketing,81307.09820419611,1,-1
+Operations Manager,Healthcare,Large,Berlin,1,1,Machine Learning,103526.20119995158,1,1
+UX Designer,Retail,Small,San Francisco,2,2,Cybersecurity,87252.91652187712,1,0
+Product Manager,Education,Large,Toronto,1,3,Machine Learning,110181.30592094656,1,1
+UX Designer,Healthcare,Large,Sydney,2,2,Python,86291.41064693853,0,0
+HR Manager,Energy,Small,New York,3,3,Machine Learning,61369.64004553371,1,1
+AI Researcher,Energy,Small,Singapore,2,3,JavaScript,101945.49775113164,0,0
+AI Researcher,Technology,Small,Singapore,2,1,Sales,76527.53717933195,1,1
+Software Engineer,Finance,Medium,San Francisco,3,3,Project Management,85332.65422472931,1,-1
+Product Manager,Telecommunications,Small,London,1,2,Machine Learning,114751.44094968236,1,0
+Cybersecurity Analyst,Entertainment,Large,Tokyo,2,3,Data Analysis,66782.59080556972,1,0
+Software Engineer,Manufacturing,Small,Tokyo,2,3,Sales,93294.8757492877,1,-1
+UX Designer,Education,Large,New York,3,1,Sales,89189.63299928416,1,1
+Software Engineer,Retail,Medium,Dubai,1,3,Machine Learning,104018.51430874206,0,0
+UX Designer,Telecommunications,Large,Dubai,2,3,Sales,107103.06730964044,1,0
+Data Scientist,Healthcare,Large,Berlin,3,2,Marketing,95276.78008497784,1,1
+AI Researcher,Energy,Small,Toronto,2,1,Machine Learning,82792.507068392,1,-1
+Data Scientist,Education,Small,Paris,3,1,Python,99467.4500805192,1,1
+Operations Manager,Manufacturing,Large,London,1,1,Cybersecurity,116713.11794289124,0,1
+Product Manager,Entertainment,Small,Sydney,1,3,JavaScript,89454.20120720599,1,1
+Cybersecurity Analyst,Technology,Medium,Paris,1,1,UX/UI Design,84654.87771153946,1,0
+UX Designer,Manufacturing,Medium,Paris,1,3,Communication,97763.4051533598,1,-1
+Cybersecurity Analyst,Education,Small,Singapore,2,3,Sales,90774.54040739224,1,-1
+UX Designer,Manufacturing,Medium,New York,2,2,Python,63245.81152164402,0,1
+HR Manager,Education,Small,Tokyo,1,2,Project Management,94786.61600794963,1,0
+Software Engineer,Education,Large,Berlin,1,2,Project Management,63064.75182472472,0,1
+Operations Manager,Transportation,Large,Dubai,1,2,Communication,97489.6129281689,1,0
+AI Researcher,Retail,Medium,New York,2,2,JavaScript,74057.14551186866,0,0
+UX Designer,Energy,Small,Singapore,1,3,Sales,90737.49608372692,0,0
+Cybersecurity Analyst,Transportation,Small,Sydney,1,3,Marketing,97811.87812398472,1,0
+Operations Manager,Entertainment,Medium,Berlin,1,1,Communication,139078.06691887142,1,-1
+Marketing Specialist,Transportation,Large,Singapore,3,3,JavaScript,104854.99923573848,0,0
+Marketing Specialist,Finance,Medium,Tokyo,1,3,Sales,117295.97619484668,0,0
+Data Scientist,Finance,Large,Tokyo,3,2,Python,127434.9563738785,1,1
+AI Researcher,Energy,Small,Tokyo,3,3,Cybersecurity,99785.1183399889,0,1
+HR Manager,Manufacturing,Large,New York,1,2,Marketing,95713.796005344,0,-1
+Cybersecurity Analyst,Retail,Medium,New York,3,1,UX/UI Design,68665.57782347569,0,1
+Software Engineer,Energy,Small,Dubai,1,1,Project Management,87667.40135199211,1,0
+Software Engineer,Education,Medium,Dubai,2,3,Data Analysis,75538.24540728275,0,1
+Cybersecurity Analyst,Healthcare,Medium,Sydney,2,1,Python,81978.82299751228,0,-1
+Product Manager,Retail,Large,Berlin,2,3,Project Management,127413.26752384935,0,1
+HR Manager,Retail,Medium,San Francisco,2,1,Machine Learning,92292.4301839998,1,1
+Operations Manager,Education,Large,San Francisco,3,2,Data Analysis,72482.00844567783,1,-1
+UX Designer,Education,Small,Singapore,1,2,Project Management,117490.66909382609,0,-1
+Product Manager,Technology,Large,Tokyo,1,2,JavaScript,109105.50952474898,1,0
+UX Designer,Energy,Small,Berlin,1,2,Marketing,110153.06985200792,0,1
+UX Designer,Education,Large,Paris,2,3,Project Management,49877.3959379521,1,0
+Product Manager,Finance,Medium,New York,2,1,UX/UI Design,128973.41915442972,1,1
+Data Scientist,Entertainment,Large,Toronto,1,3,Cybersecurity,78829.70515812226,0,1
+Marketing Specialist,Healthcare,Large,London,2,2,JavaScript,105559.0954558551,1,0
+UX Designer,Energy,Small,Sydney,1,3,Python,140475.99581234064,1,1
+Product Manager,Telecommunications,Medium,Tokyo,1,1,Python,133106.65496381235,1,1
+Product Manager,Finance,Large,Tokyo,1,3,Python,70448.75749054627,0,1
+Sales Manager,Manufacturing,Medium,Tokyo,1,1,Python,61109.65325995454,1,-1
+Data Scientist,Education,Large,New York,1,3,Cybersecurity,118606.93197695856,1,0
+AI Researcher,Telecommunications,Large,New York,1,1,Project Management,92841.11623188,0,-1
+Sales Manager,Education,Medium,London,1,1,Sales,79982.3711739584,1,0
+Sales Manager,Retail,Large,Paris,2,2,Project Management,102424.37093878096,1,0
+Cybersecurity Analyst,Finance,Medium,Berlin,1,1,Machine Learning,86742.40845081118,1,1
+Marketing Specialist,Retail,Large,Tokyo,1,2,Marketing,104026.48274097488,1,0
+Product Manager,Technology,Small,San Francisco,2,2,Data Analysis,91339.63615637466,1,-1
+Marketing Specialist,Retail,Medium,Dubai,2,2,Sales,104447.75856656334,0,-1
+HR Manager,Technology,Large,San Francisco,2,3,Sales,72109.34621727222,0,-1
+Cybersecurity Analyst,Technology,Large,Singapore,1,3,Project Management,118489.24026265267,1,0
+AI Researcher,Telecommunications,Small,San Francisco,3,3,Sales,103952.46741464877,1,-1
+Marketing Specialist,Education,Medium,Singapore,3,3,Communication,102925.94738807144,1,0
+Software Engineer,Manufacturing,Large,Toronto,2,1,Communication,67646.60145976013,0,-1
+UX Designer,Retail,Small,Dubai,3,1,Machine Learning,123992.64833288494,0,-1
+HR Manager,Finance,Large,San Francisco,2,3,Data Analysis,89725.67801267463,1,0
+Data Scientist,Technology,Medium,Toronto,1,1,UX/UI Design,104560.97724859684,1,-1
+AI Researcher,Education,Large,Sydney,3,1,Cybersecurity,83543.51072506783,0,1
+HR Manager,Healthcare,Large,Berlin,1,2,Project Management,95217.78129364197,1,0
+UX Designer,Energy,Large,Toronto,3,2,Cybersecurity,95942.54704238808,0,0
+Cybersecurity Analyst,Telecommunications,Large,Berlin,1,2,UX/UI Design,33601.38135993158,0,0
+UX Designer,Manufacturing,Small,San Francisco,3,2,Project Management,101648.96249309662,1,1
+Sales Manager,Transportation,Small,Paris,1,1,Project Management,129306.82923444168,0,0
+UX Designer,Telecommunications,Medium,Toronto,1,3,Data Analysis,100795.60517983914,1,-1
+Sales Manager,Healthcare,Small,Dubai,3,1,Cybersecurity,70845.83502220524,1,-1
+Cybersecurity Analyst,Energy,Small,San Francisco,1,1,Communication,102999.23132307774,1,-1
+Operations Manager,Healthcare,Medium,Tokyo,1,1,Python,111189.61060346678,1,0
+Sales Manager,Retail,Small,New York,1,2,Cybersecurity,100249.33032380774,1,-1
+Data Scientist,Technology,Small,Toronto,3,2,Marketing,88517.45787139912,1,0
+UX Designer,Manufacturing,Medium,Dubai,3,2,Marketing,85157.01548352139,0,-1
+UX Designer,Entertainment,Medium,Sydney,1,3,Project Management,85073.80489266386,0,1
+Data Scientist,Technology,Medium,Tokyo,1,1,Python,103955.53802022424,0,1
+Software Engineer,Entertainment,Large,Sydney,3,3,JavaScript,61857.52009880744,0,1
+Product Manager,Energy,Large,San Francisco,3,2,UX/UI Design,82562.53678289187,1,1
+Operations Manager,Education,Medium,New York,1,3,Machine Learning,121912.19646021895,0,0
+AI Researcher,Transportation,Medium,Toronto,1,1,Python,122683.90533154352,0,-1
+Sales Manager,Finance,Medium,Toronto,1,1,Machine Learning,60437.05824396676,0,1
+Data Scientist,Technology,Large,Paris,2,2,Cybersecurity,67371.72777472783,1,0
+Cybersecurity Analyst,Manufacturing,Large,Paris,3,2,Cybersecurity,84587.58840944126,0,1
+Sales Manager,Healthcare,Small,San Francisco,2,3,Machine Learning,107851.79034228704,1,1
+Product Manager,Manufacturing,Small,San Francisco,3,2,UX/UI Design,53450.51291894019,0,0
+Cybersecurity Analyst,Energy,Medium,New York,3,2,Python,88903.82730165044,1,0
+HR Manager,Entertainment,Large,Paris,3,1,JavaScript,80516.4168684071,1,-1
+UX Designer,Healthcare,Large,Dubai,3,2,Project Management,116519.29348570466,0,-1
+HR Manager,Finance,Large,Dubai,3,2,Data Analysis,56461.83052061492,1,1
+Sales Manager,Finance,Medium,New York,3,1,Cybersecurity,91850.81230987245,1,1
+Product Manager,Technology,Small,Dubai,3,1,Marketing,82127.81125302812,0,-1
+Operations Manager,Energy,Medium,Singapore,2,3,UX/UI Design,119395.97852554575,0,-1
+Sales Manager,Education,Small,Berlin,1,2,Data Analysis,101953.052927065,0,0
+Data Scientist,Energy,Small,New York,1,1,JavaScript,78283.6868148453,1,-1
+Marketing Specialist,Entertainment,Medium,New York,2,3,Sales,107067.72886658164,1,-1
+Sales Manager,Manufacturing,Small,London,2,3,Project Management,82223.42293382852,1,1
+UX Designer,Finance,Small,Tokyo,2,2,Cybersecurity,109986.59422479507,0,-1
+UX Designer,Manufacturing,Large,Tokyo,2,2,Project Management,85258.46018228843,1,1
+Sales Manager,Manufacturing,Small,Singapore,3,3,Data Analysis,111093.33157537528,1,-1
+Cybersecurity Analyst,Manufacturing,Medium,Paris,1,1,Project Management,98721.639102545,1,0
+Marketing Specialist,Finance,Medium,San Francisco,3,3,Sales,155209.82161382848,1,-1
+Data Scientist,Telecommunications,Small,San Francisco,1,2,Data Analysis,88942.07989167991,1,-1
+Sales Manager,Retail,Large,Sydney,1,1,Cybersecurity,97657.24583242898,1,-1
+Cybersecurity Analyst,Entertainment,Large,Singapore,2,1,Python,80411.50516568137,1,1
+UX Designer,Telecommunications,Small,New York,3,3,Marketing,90053.70681509557,0,0
+UX Designer,Entertainment,Small,Singapore,2,2,Data Analysis,35963.29731701118,0,-1
+Product Manager,Healthcare,Medium,Singapore,3,3,Communication,99311.68033082064,0,1
+Sales Manager,Energy,Small,Singapore,1,3,Sales,116857.48425898825,1,0
+Marketing Specialist,Energy,Large,Tokyo,2,3,Data Analysis,97932.60009198709,1,1
+Software Engineer,Transportation,Small,Singapore,2,1,Data Analysis,63722.77084045245,0,1
+Marketing Specialist,Energy,Medium,Berlin,1,1,Communication,73964.25694581997,1,0
+UX Designer,Finance,Medium,San Francisco,1,2,Cybersecurity,41396.15745687459,0,-1
+UX Designer,Education,Medium,Sydney,1,2,Data Analysis,109578.48013730848,1,1
+HR Manager,Technology,Medium,Berlin,2,3,Marketing,69869.7341458084,1,1
+UX Designer,Transportation,Medium,Sydney,3,3,Project Management,89425.82819575544,0,-1
+Data Scientist,Technology,Small,London,2,3,Cybersecurity,86925.2485534556,0,-1
+AI Researcher,Entertainment,Small,Sydney,3,2,Marketing,119754.54071316532,0,0
+Sales Manager,Technology,Small,San Francisco,2,1,Cybersecurity,91705.62635931476,0,0
+Marketing Specialist,Technology,Small,San Francisco,2,1,Marketing,106177.8584021202,0,0
+AI Researcher,Transportation,Medium,Singapore,1,3,Sales,100929.27528295324,1,-1
+Cybersecurity Analyst,Healthcare,Large,Toronto,3,3,Marketing,117188.22839922798,1,1
+Software Engineer,Manufacturing,Small,London,2,3,Machine Learning,85217.52610994082,1,1
+Data Scientist,Energy,Large,New York,2,3,Marketing,127392.30661009034,0,0
+Marketing Specialist,Energy,Small,Dubai,1,2,Python,50286.7568720137,0,-1
+AI Researcher,Finance,Small,Sydney,1,1,Python,107149.46996002473,0,1
+Software Engineer,Transportation,Large,Toronto,3,3,UX/UI Design,72667.60782671736,0,0
+HR Manager,Finance,Medium,Singapore,2,2,Machine Learning,80145.00894440095,0,1
+Data Scientist,Education,Small,Tokyo,3,3,Machine Learning,101388.28533802072,0,1
+Data Scientist,Education,Small,New York,2,3,Project Management,101228.04099695486,1,-1
+HR Manager,Finance,Small,Paris,3,1,Machine Learning,102128.56027380144,1,-1
+Sales Manager,Transportation,Large,Toronto,1,3,Project Management,62276.84111789524,1,1
+HR Manager,Finance,Medium,Tokyo,2,1,UX/UI Design,118980.6046255848,1,0
+Data Scientist,Energy,Large,London,3,1,UX/UI Design,71987.05763544649,1,-1
+Data Scientist,Telecommunications,Large,Singapore,1,1,Sales,74654.25819549602,0,1
+AI Researcher,Retail,Medium,New York,1,2,Python,102757.93476333655,0,-1
+UX Designer,Technology,Large,New York,3,2,Marketing,84265.57650477519,0,-1
+Software Engineer,Retail,Medium,New York,2,1,Marketing,96165.21681124983,0,-1
+HR Manager,Transportation,Small,London,2,3,Communication,46867.98606734424,0,1
+Software Engineer,Retail,Medium,Sydney,1,1,Communication,95686.48899038463,0,0
+HR Manager,Education,Small,Paris,2,3,JavaScript,94356.6375902443,1,0
+Cybersecurity Analyst,Entertainment,Large,London,2,1,Cybersecurity,79802.82924471433,0,0
+Data Scientist,Technology,Large,Dubai,2,3,Sales,48518.48080470421,0,-1
+UX Designer,Manufacturing,Small,Paris,1,2,JavaScript,85743.8347703679,0,1
+AI Researcher,Transportation,Large,San Francisco,3,3,JavaScript,89252.52280402774,0,-1
+UX Designer,Technology,Medium,Singapore,2,1,Data Analysis,82655.4201933901,1,0
+UX Designer,Retail,Small,London,1,2,Data Analysis,53276.51071135004,1,0
+UX Designer,Education,Large,Tokyo,1,3,JavaScript,121894.68014633832,0,1
+Software Engineer,Healthcare,Small,Paris,3,3,Machine Learning,77222.76944111254,1,-1
+HR Manager,Telecommunications,Medium,Dubai,2,3,Cybersecurity,85555.90674154198,1,0
+Operations Manager,Manufacturing,Medium,San Francisco,2,3,Sales,41810.51357563419,0,1
+Cybersecurity Analyst,Telecommunications,Large,Sydney,3,3,JavaScript,121897.10697396414,0,-1
+Marketing Specialist,Technology,Medium,Tokyo,3,2,Marketing,80669.00136531888,0,-1
+UX Designer,Education,Small,Paris,1,2,Cybersecurity,91969.25634148406,0,0
+Sales Manager,Education,Medium,Singapore,1,2,Data Analysis,112414.74889633304,0,0
+Software Engineer,Retail,Small,Tokyo,3,2,Marketing,76473.91590566748,1,-1
+AI Researcher,Energy,Small,San Francisco,2,1,Data Analysis,109264.89974773087,0,-1
+Marketing Specialist,Retail,Medium,Tokyo,1,2,Data Analysis,48773.49088117717,0,0
+Operations Manager,Energy,Large,Berlin,1,3,Cybersecurity,101019.73315142626,0,-1
+Sales Manager,Energy,Medium,Toronto,2,3,Data Analysis,121444.84333039304,1,0
+Operations Manager,Manufacturing,Small,Sydney,1,2,UX/UI Design,78391.66305563941,0,-1
+Marketing Specialist,Retail,Small,San Francisco,2,3,Python,112377.63240596798,0,0
+UX Designer,Healthcare,Medium,Tokyo,2,2,UX/UI Design,126678.45304387566,0,1
+Sales Manager,Finance,Large,Toronto,2,3,Python,84903.16323891962,1,0
+Operations Manager,Finance,Large,Toronto,3,1,Communication,83249.43428300279,0,0
+AI Researcher,Retail,Small,Tokyo,3,1,Communication,72034.12508335392,0,1
+HR Manager,Retail,Small,Singapore,3,2,Data Analysis,79805.39689629733,0,-1
+Data Scientist,Telecommunications,Large,Berlin,2,2,Sales,73692.80219454759,1,1
+HR Manager,Manufacturing,Medium,London,2,2,Sales,72017.77803145545,0,0
+Marketing Specialist,Retail,Small,Berlin,3,3,Python,113976.70593422712,0,-1
+Software Engineer,Telecommunications,Small,Tokyo,1,2,Marketing,74201.47949423481,0,1
+Data Scientist,Energy,Large,Sydney,2,1,Cybersecurity,95170.43829439246,1,-1
+Cybersecurity Analyst,Education,Medium,London,1,3,Data Analysis,90764.66870432477,0,-1
+AI Researcher,Education,Large,San Francisco,1,2,Cybersecurity,119961.89125142244,0,1
+Cybersecurity Analyst,Energy,Medium,Berlin,2,3,UX/UI Design,79936.87535889974,0,-1
+Sales Manager,Transportation,Medium,Tokyo,2,3,Sales,97622.96093308643,1,1
+Data Scientist,Telecommunications,Medium,Berlin,1,2,Machine Learning,105821.3940455222,1,0
+Cybersecurity Analyst,Telecommunications,Small,London,1,3,UX/UI Design,119794.99214641162,0,-1
+Cybersecurity Analyst,Energy,Large,Dubai,3,1,UX/UI Design,79644.93309909466,1,0
+Operations Manager,Healthcare,Large,Paris,3,1,Python,77642.1506253524,1,0
+HR Manager,Entertainment,Medium,Berlin,2,3,Project Management,68764.37892079895,1,-1

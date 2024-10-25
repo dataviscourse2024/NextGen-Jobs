@@ -8,7 +8,7 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v4.js"></script>
     <script src="https://d3js.org/topojson.v3.js"></script>
-    <script src="line-chart.js"></script>
+    <script src="barchart.js"></script>
     <script src="worldmap.js"></script>
     <script src="script.js"></script>
     <style>
@@ -69,24 +69,19 @@
 <body>
     <div class="header">
         <h1>Global Epidemic Case Track</h1>
-        <p>Tina Chen & Jenny Zhan</p>
+        <p>Tina Chen & Jenny Zhan & Terry Cao</p>
     </div>
     <div id="content">
         <div id="map-container">
+            <h2>world map: </h2>
             <svg id="map">
                 <g id="graticules"></g>
                 <g id="countries"></g>
             </svg>
         </div>
-        <div id="line-chart-container">
-            <svg id="line-chart">
-                <g id="x-axis"></g>
-                <g id="y-axis"></g>
-                <g id="lines"></g>
-                <g id="overlay">
-                    <line></line>
-                </g>
-            </svg>
+        <div id="bar-chart-div">
+            <h2>Required Skills Bar Chart</h2>
+            <svg id="bar-chart"></svg>
         </div>
     </div>
     <div id="tooltip"

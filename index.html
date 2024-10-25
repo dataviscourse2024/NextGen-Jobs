@@ -8,9 +8,9 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v4.js"></script>
     <script src="https://d3js.org/topojson.v3.js"></script>
-    <script src="js/line-chart.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/script.js"></script>
+    <script src="line-chart.js"></script>
+    <script src="worldmap.js"></script>
+    <script src="script.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,6 +36,32 @@
             font-size: 1.2em;
             margin: 10px 0 0;
             color: #6c757d;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        #map-container {
+            margin-top: 20px; /* Add margin to push the map down */
+            text-align: center;
+        }
+
+        #map {
+            width: 960px;
+            height: 500px;
+            display: inline-block;
+        }
+
+        #line-chart-container {
+            margin-top: 40px; /* Add margin to separate from the map */
+            text-align: center;
+        }
+
+        #line-chart {
+            width: 960px;
+            height: 500px;
+            display: inline-block;
         }
     </style>
 </head>

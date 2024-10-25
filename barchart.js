@@ -1,54 +1,60 @@
-// Sample data for Required_Skills
-const skillsData = [
-    { skill: "Project Management", count: 60 },
-    { skill: "Python", count: 60 },
-    { skill: "Cybersecurity", count: 58 },
-    { skill: "Machine Learning", count: 52 },
-    { skill: "UX/UI Design", count: 49 }
-];
+// Load the D3 library before running this script
+d3.csv("processed_ai_job_market_insights.csv").then(data => {
+    // Set dimensions and margins for the chart
+    const margin = { top: 30, right: 30, bottom: 70, left: 60 },
+          width = 800 - margin.left - margin.right,
+          height = 400 - margin.top - margin.bottom;
 
-// Set dimensions and margins
-const margin = { top: 20, right: 20, bottom: 70, left: 40 },
-      width = 800 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+    // Preprocess the data to count job growth projections per skill
+    const skillsData = d3.rollup(data, v => v.length, d => d.Required_Skills);
 
-// Select existing SVG and set dimensions
-const svg = d3.select("#bar-chart")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")  // Append a group for margin adjustment
-    .attr("transform", `translate(${margin.left},${margin.top})`);
+    // Create the SVG container
+    const svg = d3.select("#bar-chart")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// X and Y scales
-const x = d3.scaleBand()
-    .domain(skillsData.map(d => d.skill))
-    .range([0, width])
-    .padding(0.2);
+    // X and Y scales
+    const x = d3.scaleBand()
+        .domain([...skillsData.keys()])
+        .range([0, width])
+        .padding(0.2);
 
-const y = d3.scaleLinear()
-    .domain([0, d3.max(skillsData, d => d.count)])
-    .range([height, 0]);
+    const y = d3.scaleLinear()
+        .domain([0, d3.max([...skillsData.values()])])
+        .range([height, 0]);
 
-// X-axis
-svg.append("g")
-    .attr("transform", `translate(0,${height})`)
-    .call(d3.axisBottom(x))
-    .selectAll("text")
-    .attr("transform", "rotate(-45)")
-    .style("text-anchor", "end");
+    // Add X-axis
+    svg.append("g")
+        .attr("transform", `translate(0, ${height})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("transform", "rotate(-45)")
+        .style("text-anchor", "end");
 
-// Y-axis
-svg.append("g")
-    .call(d3.axisLeft(y));
+    // Add Y-axis
+    svg.append("g")
+        .call(d3.axisLeft(y));
 
-// Bars
-svg.selectAll(".bar")
-    .data(skillsData)
-    .enter()
-    .append("rect")
-    .attr("class", "bar")
-    .attr("x", d => x(d.skill))
-    .attr("width", x.bandwidth())
-    .attr("y", d => y(d.count))
-    .attr("height", d => height - y(d.count))
-    .attr("fill", "#69b3a2");
+    // Add bars
+    svg.selectAll(".bar")
+        .data(skillsData)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", d => x(d[0]))
+        .attr("width", x.bandwidth())
+        .attr("y", d => y(d[1]))
+        .attr("height", d => height - y(d[1]))
+        .attr("fill", "#69b3a2");
+
+    // Add chart title
+    svg.append("text")
+        .attr("x", width / 2)
+        .attr("y", -10)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .style("font-weight", "bold")
+        .text("Job Growth Projections by Skill Set");
+});

@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
     <script src="barchart.js"></script>
     <script src="worldmap.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
     <script src="boxplot.js"></script>
     <script src="wordcloud.js"></script>
 
@@ -46,16 +46,65 @@
             padding: 20px;
         }
 
+
         #map-container {
-            margin-top: 20px; /* Add margin to push the map down */
-            text-align: center;
+            flex: 1;
+            position: relative;
+            min-width: 0;  
+        }
+
+
+        #pie-chart {
+            flex: 1;
+            min-width: 0; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #legend {
+            position: absolute;
+            top: 10px; /* Position the legend at the top */
+            left: 10px; /* Align to the left of the map */
+            background: rgba(255, 255, 255, 0.8); /* Slight transparency */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 100; /* Ensure it appears above the map */
         }
 
         #map {
-            width: 960px;
-            height: 500px;
-            display: inline-block;
+            margin: 0 auto; /* Center the map horizontally */
+            display: block;
         }
+        #tooltip {
+            position: absolute;
+            visibility: hidden;
+            background: rgba(255, 255, 255, 0.9); /* 背景透明 */
+            border: 1px solid #ccc;
+            padding: 10px; /* 增加内边距 */
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 1000; /* 确保显示在最上方 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+            pointer-events: none; /* 防止 tooltip 被点击 */
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #e7e7e7;
+            border: 1px solid #ccc;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+
+        .tab.active {
+            background-color: #007bff;
+            color: #fff;
+            border: 1px solid #007bff;
+        }
+
+
 
         #line-chart-container {
             margin-top: 40px; /* Add margin to separate from the map */
@@ -76,13 +125,17 @@
         <p>Tina Chen & Jenny Zhan & Terry Cao</p>
     </div>
     <div id="content">
+
         <div id="map-container">
-            <h2>world map: </h2>
-            <svg id="map">
-                <g id="graticules"></g>
-                <g id="countries"></g>
-            </svg>
+            <div id="tooltip"></div>
+            <div id="legend"></div> 
+            <svg id="map" width="960" height="500"></svg>
         </div>
+
+        <div id="pie-chart">
+            <h2>Job Distribution by Type in Selected City</h2>
+        </div>
+
         <div id="bar-chart-div">
             <h2>Required Skills Bar Chart</h2>
             <svg id="bar-chart"></svg>

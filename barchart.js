@@ -36,8 +36,8 @@ d3.csv("processed_ai_job_market_insights.csv").then(data => {
     svg.append("text")
         .attr("class", "x-label")
         .attr("text-anchor", "end")
-        .attr("x", width / 2)
-        .attr("y", height + margin.bottom -20)
+        .attr("x", margin.left + width / 2)
+        .attr("y", height + margin.bottom -10)
         .text("Required Skill");
 
 
@@ -51,7 +51,7 @@ d3.csv("processed_ai_job_market_insights.csv").then(data => {
         .attr("x", -margin.left)
         .attr("y", -margin.top)
         .attr("transform", "rotate(-90)")
-        .text("Jobs(count)");
+        .text("Jobs (count)");
 
     // Add bars
     svg.selectAll(".bar")

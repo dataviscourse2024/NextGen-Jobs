@@ -1,9 +1,9 @@
 // Load the D3 library before running this script
 d3.csv("processed_ai_job_market_insights.csv").then(data => {
     // Set dimensions and margins for the chart
-    const margin = { top: 30, right: 30, bottom: 70, left: 60 },
-          width = 800 - margin.left - margin.right,
-          height = 400 - margin.top - margin.bottom;
+    const margin = { top: 30, right: 30, bottom: 90, left: 60 },
+        width = 800 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
 
     // Preprocess the data to count job growth projections per skill
     const skillsData = d3.rollup(data, v => v.length, d => d.Required_Skills);
@@ -33,9 +33,25 @@ d3.csv("processed_ai_job_market_insights.csv").then(data => {
         .attr("transform", "rotate(-45)")
         .style("text-anchor", "end");
 
+    svg.append("text")
+        .attr("class", "x-label")
+        .attr("text-anchor", "end")
+        .attr("x", width / 2)
+        .attr("y", height + margin.bottom -20)
+        .text("Required Skill");
+
+
     // Add Y-axis
     svg.append("g")
         .call(d3.axisLeft(y));
+
+    svg.append("text")
+        .attr("class", "y-label")
+        .attr("text-anchor", "end")
+        .attr("x", -margin.left)
+        .attr("y", -margin.top)
+        .attr("transform", "rotate(-90)")
+        .text("Jobs(count)");
 
     // Add bars
     svg.selectAll(".bar")
@@ -47,7 +63,19 @@ d3.csv("processed_ai_job_market_insights.csv").then(data => {
         .attr("width", x.bandwidth())
         .attr("y", d => y(d[1]))
         .attr("height", d => height - y(d[1]))
-        .attr("fill", "#69b3a2");
+        .attr("fill", "#69b3a2")
+        
+        .on("mouseover", function(d, i){
+            d3.select(this).transition()
+            .duration("50")
+            .attr("opacity", ".85");
+        })
+
+        .on("mouseout", function(d, i){
+            d3.select(this).transition()
+            .duration("50")
+            .attr("opacity", "1");
+        });
 
     // Add chart title
     svg.append("text")

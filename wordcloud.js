@@ -2,11 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let allData;
     const width = 800, height = 400;
 
+
     // Create filter container
     const filterDiv = document.createElement('div');
     filterDiv.style.margin = '20px';
     filterDiv.style.display = 'flex';
     filterDiv.style.gap = '20px';
+
 
     // Create industry filter
     const industrySelect = document.createElement('select');
@@ -16,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     industryLabel.appendChild(industrySelect);
     filterDiv.appendChild(industryLabel);
 
+
     // Create AI Adoption Level filter
     const aiSelect = document.createElement('select');
     aiSelect.id = 'ai-filter';
@@ -23,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     aiLabel.textContent = 'AI Adoption Level: ';
     aiLabel.appendChild(aiSelect);
     filterDiv.appendChild(aiLabel);
+
 
     // Create Automation Risk filter
     const riskSelect = document.createElement('select');
@@ -34,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('word-cloud').insertBefore(filterDiv, document.getElementById('word-cloud-canvas'));
 
+
     // Initialize canvas
     const canvas = d3.select("#word-cloud-canvas")
         .attr("width", width)
@@ -41,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .node();
     const context = canvas.getContext("2d");
 
+    
     // Load and process data
     d3.csv("processed_ai_job_market_insights.csv").then(data => {
         allData = data;

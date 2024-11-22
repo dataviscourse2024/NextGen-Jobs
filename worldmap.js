@@ -78,16 +78,12 @@ async function drawWorldMap() {
                 .attr("r", 12)
                 .attr("fill", "#4a7c6f");
 
-            // Show tooltip
-            d3.select("#tooltip")
-                .style("visibility", "visible")
-                .html(`
-                    <strong>${city}</strong><br>
-                    Total Jobs: ${jobs.length}<br>
-                    Click for industry breakdown
-                `)
-                .style("left", `${event.pageX + 10}px`)
-                .style("top", `${event.pageY - 10}px`);
+            // Update tooltip content
+            updateTooltip(`
+                <strong>${city}</strong><br>
+                Total Jobs: ${jobs.length}<br>
+                Click for industry breakdown
+            `);
         })
         .on("mouseout", function() {
             // Reset marker style
@@ -95,8 +91,8 @@ async function drawWorldMap() {
                 .attr("r", 10)
                 .attr("fill", "#69b3a2");
 
-            // Hide tooltip
-            d3.select("#tooltip").style("visibility", "hidden");
+            // Reset tooltip
+            clearTooltip();
         })
         .on("click", (event, [city, jobs]) => {
             // Highlight selected city and dim others
@@ -115,12 +111,12 @@ async function drawWorldMap() {
             .attr("class", "legend-container");
 
         legend.html(`
-            <h4>Map Legend</h4>
-            <div class="legend-item">
-                <span style="display: inline-block; width: 15px; height: 15px; background: #69b3a2; margin-right: 5px;"></span>
-                City with Job Data
+            <h4 style="margin-bottom: 10px;">Map Legend</h4>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <span style="display: inline-block; width: 15px; height: 15px; background: #69b3a2; border: 1px solid black;"></span>
+                <span>City with Job Data</span>
             </div>
-            <div class="legend-note">Click on any city to view industry distribution</div>
+            <div style="margin-top: 8px; font-style: italic;">Click on any city to view industry distribution</div>
         `);
 
     } catch (error) {
@@ -147,7 +143,7 @@ function drawCityJobPieChart(city, jobs) {
         .sort(null);
 
     const arc = d3.arc()
-        .innerRadius(radius * 0.3) // Create a donut chart
+        .innerRadius(radius * 0.3)
         .outerRadius(radius * 0.8);
 
     const labelArc = d3.arc()
@@ -192,17 +188,13 @@ function drawCityJobPieChart(city, jobs) {
                     .innerRadius(radius * 0.3)
                     .outerRadius(radius * 0.85));
 
-            // Show tooltip
+            // Update tooltip
             const percentage = ((d.data.count / jobs.length) * 100).toFixed(1);
-            d3.select("#tooltip")
-                .style("visibility", "visible")
-                .html(`
-                    <strong>${d.data.industry}</strong><br>
-                    Jobs: ${d.data.count}<br>
-                    Percentage: ${percentage}%
-                `)
-                .style("left", `${event.pageX + 10}px`)
-                .style("top", `${event.pageY - 10}px`);
+            updateTooltip(`
+                <strong>${d.data.industry}</strong><br>
+                Jobs: ${d.data.count}<br>
+                Percentage: ${percentage}%
+            `);
         })
         .on("mouseout", function() {
             // Reset segment
@@ -212,8 +204,8 @@ function drawCityJobPieChart(city, jobs) {
                 .duration(200)
                 .attr("d", arc);
 
-            // Hide tooltip
-            d3.select("#tooltip").style("visibility", "hidden");
+            // Reset tooltip
+            clearTooltip();
         });
 
     // Add percentage labels
@@ -226,8 +218,22 @@ function drawCityJobPieChart(city, jobs) {
         .attr("dy", "0.35em")
         .attr("text-anchor", "middle")
         .style("font-size", "12px")
-        .style("opacity", d => (d.data.count / jobs.length > 0.05 ? 1 : 0)) // Only show labels for segments > 5%
+        .style("opacity", d => (d.data.count / jobs.length > 0.05 ? 1 : 0))
         .text(d => `${((d.data.count / jobs.length) * 100).toFixed(0)}%`);
+}
+
+// New tooltip handling functions
+function updateTooltip(content) {
+    d3.select("#tooltip-display")
+        .style("visibility", "visible")
+        .select(".tooltip-content")
+        .html(content);
+}
+
+function clearTooltip() {
+    d3.select("#tooltip-display")
+        .select(".tooltip-content")
+        .html("Hover over the map or pie chart to see details");
 }
 
 // Initialize visualization when DOM is ready

@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     let allData;
-    const width = 800, height = 400;
-
+    // Increased canvas size
+    const width = 1200, height = 600;
 
     // Create filter container
     const filterDiv = document.createElement('div');
     filterDiv.style.margin = '20px';
     filterDiv.style.display = 'flex';
     filterDiv.style.gap = '20px';
-
 
     // Create industry filter
     const industrySelect = document.createElement('select');
@@ -18,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     industryLabel.appendChild(industrySelect);
     filterDiv.appendChild(industryLabel);
 
-
     // Create AI Adoption Level filter
     const aiSelect = document.createElement('select');
     aiSelect.id = 'ai-filter';
@@ -26,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     aiLabel.textContent = 'AI Adoption Level: ';
     aiLabel.appendChild(aiSelect);
     filterDiv.appendChild(aiLabel);
-
 
     // Create Automation Risk filter
     const riskSelect = document.createElement('select');
@@ -38,15 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('word-cloud').insertBefore(filterDiv, document.getElementById('word-cloud-canvas'));
 
-
-    // Initialize canvas
+    // Initialize canvas with new dimensions
     const canvas = d3.select("#word-cloud-canvas")
         .attr("width", width)
         .attr("height", height)
         .node();
     const context = canvas.getContext("2d");
 
-    
     // Load and process data
     d3.csv("processed_ai_job_market_insights.csv").then(data => {
         allData = data;
@@ -112,30 +107,54 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateWordCloud(data) {
+        // Count skills and create word objects
         const skillCounts = d3.rollup(data, v => v.length, d => d.Required_Skills);
+        
+        // Convert to array and sort by count
+        const sortedWords = Array.from(skillCounts, ([skill, count]) => ({
+            text: skill,
+            size: Math.max(30, count * 6), // Increased base font size and scaling
+            count: count
+        })).sort((a, b) => b.count - a.count);
 
         d3.layout.cloud()
             .size([width, height])
-            .words(Array.from(skillCounts, ([skill, count]) => ({
-                text: skill,
-                size: Math.max(20, count * 4)
-            })))
+            .words(sortedWords)
             .padding(5)
             .rotate(() => ~~(Math.random() * 2) * 90)
             .font("Arial")
             .fontSize(d => d.size)
-            .on("end", draw)
+            .on("end", words => draw(words, sortedWords))
             .start();
     }
 
-    function draw(words) {
+    function draw(words, sortedWords) {
         context.clearRect(0, 0, width, height);
+        
+        // Get indices for color assignment
+        const maxIndex = sortedWords.length - 1;
+        
         words.forEach(word => {
             context.save();
             context.translate(word.x + width / 2, word.y + height / 2);
             context.rotate(word.rotate * Math.PI / 180);
             context.font = `${word.size}px Arial`;
-            context.fillStyle = `hsl(${Math.random() * 360},100%,50%)`;
+            
+            // Determine word color based on its size ranking
+            const index = sortedWords.findIndex(w => w.text === word.text);
+            let color;
+            if (index < 2) {
+                // Two biggest words in blue
+                color = '#1E90FF';
+            } else if (index >= maxIndex - 1) {
+                // Two smallest words in red
+                color = '#FF4444';
+            } else {
+                // Rest in dark grey
+                color = '#444444';
+            }
+            
+            context.fillStyle = color;
             context.textAlign = "center";
             context.fillText(word.text, 0, 0);
             context.restore();

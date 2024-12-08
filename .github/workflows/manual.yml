@@ -1,16 +1,51 @@
-name: Python Environment Setup
+name: Build Jekyll Site
+
 on:
   push:
     branches:
+      - main  
+  pull_request:
+    branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.9'
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+    # Step 1: Checkout the Repository
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # Step 2: Set Up Python (if required for preprocessing)
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # Step 3: Install Python Dependencies
+    - name: Install Python Dependencies
+      run: |
+        python -m venv /github/workspace/myenv
+        source /github/workspace/myenv/bin/activate
+        pip install -r requirements.txt
+      if: exists('requirements.txt') 
+
+    # Step 4: Install Ruby and Jekyll
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true  
+
+    # Step 5: Build Jekyll Site
+    - name: Build Jekyll Site
+      run: |
+        bundle install
+        bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+
+    # Step 6: Verify Build Output
+    - name: Check Build Output
+      run: ls -l ./_site

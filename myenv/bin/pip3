@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/tailangcao/Desktop/CS5630/Group Proj/myenv/bin/python3.12" "$0" "$@"
-' '''
+#!/Users/christina/Desktop/MSD/group-project-tinder-visualization/myenv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
